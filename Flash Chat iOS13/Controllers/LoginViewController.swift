@@ -23,13 +23,16 @@ class LoginViewController: UIViewController {
             
             Auth.auth().signIn(withEmail: email, password: password) { [weak self] authResult, error in
                
-                if let e = error {
+                if let e = error {  // error in login 
                     print(e.localizedDescription)
                 } else {
                     // perform the segue to the chat window
-                    self?.performSegue(withIdentifier: "LoginToChat", sender: self)
+                    self?.performSegue(withIdentifier: k.loginSegue, sender: self)
                 }
             }
         }
     }
 }
+
+
+// welcome back message after succesfull login
