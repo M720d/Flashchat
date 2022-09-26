@@ -10,7 +10,7 @@ import UIKit
 import FirebaseCore
 import FirebaseFirestore
 import FirebaseAuth
-      
+
 let db = Firestore.firestore()
 
 class ChatViewController: UIViewController {
