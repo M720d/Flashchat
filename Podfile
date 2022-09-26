@@ -12,5 +12,6 @@ target 'Flash Chat iOS13' do
   # For example, to use Firebase Authentication and Cloud Firestore
   pod 'FirebaseAuth'
   pod 'FirebaseFirestore'
+  pod 'IQKeyboardManagerSwift'
 
 end
