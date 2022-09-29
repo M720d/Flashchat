@@ -41,3 +41,4 @@ class RegisterViewController: UIViewController {
 // To do list
 /* add a pop up message saying password error
  password requirements by firebase*/
+// comment

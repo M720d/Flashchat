@@ -29,6 +29,7 @@ class ChatViewController: UIViewController {
         
         loadMessages()
     }
+//    comment
     
     func loadMessages() {
 //        messages = []
