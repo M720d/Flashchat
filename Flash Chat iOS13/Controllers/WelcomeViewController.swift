@@ -32,5 +32,4 @@ class WelcomeViewController: UIViewController {
 //        }
     }
 }
-// comment
-//commetn
+
